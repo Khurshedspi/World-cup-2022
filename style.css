@@ -140,9 +140,7 @@ background: none;
   display: flex; 
   
 }
-.transfer-grid{
-  
-}
+
 
 
 .transfer-live{
@@ -201,12 +199,28 @@ background: none;
 /* ......................................... middle part complete.............  */
 /* ....................................... section 1 complete.........................  */
 
-
+/* ....................................... view all button.............................  */
+.view-all{
+  background: #dd0000;
+  border-radius: 5px;
+  width: 157px;
+  padding-top: 25px;
+  height: 50px;px;
+  margin-top: 800px;
+  text-align: center;
+}
+.no-bg2{
+  color: #ffffff;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  justify-content: center;
+}
 .footer{
   width: 1323px;
   height: 544px; 
   background: #161616;
-  margin-top: 1000px;
+  margin-top: 100px;
 
 }
 .goal{

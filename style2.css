@@ -1,0 +1,231 @@
+/* ............... fonts..............  */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+/* ................ Common styles..........  */
+body {
+  font-family: "Poppins", sans-serif;
+  background: #FFFFFF;
+  width: 1283px;
+  height: auto; 
+  overflow-x: hidden;
+ 
+}
+
+main {
+ 
+  padding-left: 10px;
+  padding-right: 60px;
+  padding-top: 50px;
+}
+.top-part {
+  display: flex;
+  align-items: center;
+  background: #161616;
+  border-radius: 30px;
+  width: 1283px;
+  height: 598px;
+}
+.top-Left{
+  padding-left: 106px;
+  
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 70px;
+  color: #ffffff;
+}
+.about-banner {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+.watch-live {
+  background: #dd0000;
+  border-radius: 5px;
+  width: 157px;
+  height: 21px;px;
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 25;
+  padding-bottom: 20px;
+  padding-right: 59;
+}
+.no-background {
+  color: #ffffff;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+}
+.Banner-image {
+  width: 587px;
+  height: 83px;
+  padding-top: 0px;
+  padding-right: 79px;
+}
+
+/* .................................. top part complete ..................  */
+
+.middle-part{
+    padding-top: 130px;
+  }
+  .nav-bar{
+    width: 312px;
+    height: 312px;
+    background: #161616;
+    border-radius: 10px;
+    margin-right: 24px;
+    
+    
+  }
+  .three-button{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 18px;
+    padding-right: 30px;
+  }
+  .upcoming-match{
+    width: 150px;
+    height: 30px;
+    background: white;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 10px;
+    margin-top: 17px;
+    margin-left: 47px;
+    margin-right: 31px;
+    border-radius: 8px;
+   
+  }
+  .all-group{
+    width: 150px;
+    height: 30px;
+    background: white;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 10px;
+    margin-top: 17px;
+    margin-left: 47px;
+    margin-right: 31px;
+    border-radius: 8px;
+  }
+  .blog{
+    width: 150px;
+    height: 30px;
+    background: white;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 10px;
+    margin-top: 17px;
+    margin-left: 47px;
+    margin-right: 31px;
+    border: none;
+    background-color: red;
+    border-radius: 8px;
+  
+  }
+  .nav-bg{
+    border: none;
+  background: none;
+  }
+  .nav-bg, a{
+    text-decoration: none;
+   
+  }
+  /* ................... nav end..............  */
+
+   .middle-part{
+    display: flex; 
+    
+  } 
+  .Match-schedule{
+    display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-column-gap: 24px;
+  }
+
+  .flex{
+    display: flex;
+    padding-left: 54px;
+    padding-top: 30px;
+    padding-right: 51px;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid-box{
+    width: 312px;
+    height: 200px;
+    border: 1px solid #E8E8E8;
+   border-radius: 10px;
+   
+  }
+
+  .vanue-time{
+    width: 202px;
+    height: 60px;
+    padding-left: 55px;
+  }
+  .vanue{
+    font-weight: 600;
+    font-size: 20px;
+    color: #161616;
+  }
+  .match-time{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #4D4D4D;
+  }
+  /* <!-- ................................. section 1 complete.........................  --> */
+
+  .footer{
+    width: 1323px;
+    height: 544px; 
+    background: #161616;
+    margin-top: 150px;
+  
+  }
+  .goal{
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 130px;
+    padding-bottom: 50px;
+    padding-right: 41px;
+    padding-left: 42px;
+  
+  }
+  .hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin: ;
+  }
+  
+  .footer-nav{
+    font-weight: 500;
+    font-size: 16px;
+    color: #B9B9B9;
+    list-style-type: none;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 130px;
+   
+  }
+  .nav-list{
+    display: flex;
+    display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   grid-column-gap: 24px;
+   padding-left: 295px;
+   justify-items: center;
+  }
+  .social-link{
+  text-align: center;
+  color: #FFFFFF;
+  }
+  .social-gap{
+    display: grid;
+    grid-template-columns: repeat(4, 0.05fr);
+    justify-content: center;
+    font-size: 30px;
+  }
