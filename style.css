@@ -271,3 +271,41 @@ color: #FFFFFF;
   justify-content: center;
   font-size: 30px;
 }
+/* ..................................... Media Queries............................  */
+
+
+/* ...................................... Mobile Devices...........................  */
+
+
+@media only  screen and (max-width:668px) {
+ .top-part{
+  width: 100%;
+  }
+.top-part{
+ 
+ grid-template-columns: repeat(1, 1fr);
+ width: 691px;
+ height: 901px;
+ text-align: center;
+ position: relative;
+ 
+}
+ .top-part{
+  flex-direction: column;
+ }
+ .watch-live{
+  position: relative;
+ text-align: center;
+ left: 200px;
+ margin-top: 10px ;
+
+ }
+ .Banner-image{
+  position: relative;
+  text-align: center;
+  left: 130px;
+  margin-top: 10px;
+ } 
+
+
+}
